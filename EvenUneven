@@ -1,0 +1,15 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+/*find out if the number is even/uneven*/
+int main()
+{
+	int a;
+	cin >> a;
+	if (a % 2==0) {
+		cout << "numarul este par";
+	}
+	else {
+		cout << "numarul este impar"<<"\n";
+	}
+}
