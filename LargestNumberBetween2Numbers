@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+/*which is the largest number?*/
+int main()
+{
+	int A, B;
+	cin >> A>> B;
+	if (A > B) {
+		cout << A;
+	}
+	else {
+		cout << B;
+	}
+
+
+}
