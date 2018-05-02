@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int digitNumber=0, x;
+	cin >> x;
+	while (x > 0) {
+		++digitNumber;
+		x = x / 10;
+
+	}
+	cout << digitNumber;
+    return 0;
+}
